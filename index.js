@@ -6,7 +6,7 @@ addEventListener('fetch', event => {
  * @param {Request} request
  */
 async function handleRequest(request) {
-  return new Response('Hello worker! test Control', {
+  return new Response('Main', {
     headers: { 'content-type': 'text/plain' },
   })
 }
